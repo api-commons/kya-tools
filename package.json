@@ -1,0 +1,13 @@
+{
+  "name": "@api-commons/kya-tools",
+  "version": "0.1.0",
+  "description": "Verify APIs.io Know Your Agent attestations (providers) and sign requests with Web Bot Auth (agents). Zero dependencies.",
+  "type": "module",
+  "main": "index.mjs",
+  "exports": { ".": "./index.mjs" },
+  "engines": { "node": ">=20" },
+  "scripts": { "test": "node --test test/*.test.mjs" },
+  "license": "Apache-2.0",
+  "repository": { "type": "git", "url": "https://github.com/api-commons/kya-tools.git" },
+  "keywords": ["kya", "know-your-agent", "web-bot-auth", "rfc9421", "ai-agents", "api-onboarding", "apis.io"]
+}
